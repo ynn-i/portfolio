@@ -1,1 +1,14 @@
-/*# sourceMappingURL=main.css.map */
+body {
+  background-color: white;
+}
+
+h1 h2 {
+  font-size: 32px;
+}
+
+body, a, ul, li, h1, h2, h3, h4, h5, p, a {
+  list-style: none;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=main.css.map */
