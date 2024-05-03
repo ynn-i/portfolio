@@ -10,10 +10,10 @@ body {
 }
 
 .contents {
-  margin: 200px;
+  margin: 10.417vw;
   display: flex;
   flex-direction: column;
-  gap: 200px;
+  gap: 10.417vw;
 }
 
 .top {
@@ -39,15 +39,15 @@ body {
 
 .profile {
   display: flex;
-  padding: 120px;
+  padding: 6.25vw;
   align-items: flex-start;
-  gap: 80px;
+  gap: 4.167vw;
   background-color: #17212C;
   border-radius: 24px;
 }
 
 .profile-img {
-  width: 420px;
+  width: 21.875vw;
 }
 
 .profile-right-text {
@@ -59,13 +59,13 @@ body {
 .project {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 2.083vw;
 }
 
 .works {
   display: flex;
   align-items: flex-start;
-  gap: 40px;
+  gap: 2.083vw;
 }
 
 .works_list {
@@ -74,6 +74,7 @@ body {
   align-items: flex-start;
   gap: 8px;
   width: 240px;
+  min-width: 160px;
   position: sticky;
   top: 60px;
 }
@@ -82,11 +83,11 @@ body {
 }
 
 .works_img {
-  width: 1240px;
+  width: 64.583vw;
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 42px;
   font-weight: 700;
   line-height: 1.4;
   letter-spacing: -0.4px;
