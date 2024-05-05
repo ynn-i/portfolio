@@ -1,122 +1,166 @@
 body {
-  background-color: $black;
+    background-color: $black;
 }
 
 .contents {
-  margin: 10.417vw;
-  display: flex;
-  flex-direction: column;
-  gap: 10.417vw;
+    margin: 10.417vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10.417vw;
 }
 
 // top
 .top {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 48px;
-  margin: 100px 0;
-  box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    margin: 100px 0;
+    box-sizing: border-box;
 }
 
 .portfolio-img {
-  width: 560px;
+    width: 560px;
 }
 
 .top-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  gap: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
 }
 
 // profile
 .profile {
-  display: flex;
-  padding: 6.25vw;
-  align-items: flex-start;
-  gap: 4.167vw;
-  background-color: $g-900;
-  border-radius: 24px;
+    display: flex;
+    padding: 6.25vw;
+    align-items: flex-start;
+    gap: 4.167vw;
+    background-color: $g-900;
+    border-radius: 24px;
 }
 
 .profile-img {
-  width: 21.875vw;
+    width: 21.875vw;
+}
+
+.profile-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
 }
 
 .profile-right-text {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.profile_info_careea {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.careea {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
 }
 
 // works
 .project {
-  display: flex;
-  flex-direction: column;
-  gap: 2.083vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2.083vw;
 }
 
 .works {
-  display: flex;
-  align-items: flex-start;
-  gap: 2.083vw;
+    display: flex;
+    align-items: flex-start;
+    gap: 2.083vw;
 }
 
 .works_list {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 8px;
-  width: 240px;
-  min-width: 160px;
-  position: sticky;
-  top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: 240px;
+    min-width: 160px;
+    position: sticky;
+    top: 60px;
 
-  :hover {
-    color: white;
-  }
+    :hover {
+        color: white;
+    }
 }
 
 .works_img {
-  width: 64.583vw;
+    width: 64.583vw;
 }
 
 // typogryphy
 h1 {
-  font-size: 42px;
-  font-weight: 700;
-  line-height: 1.4;
-  letter-spacing: -0.4px;
-  color: white;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: -0.4px;
+    color: white;
 }
 
 h2 {
-  font-size: 32px;
-  font-weight: 600;
-  line-height: 1.4;
-  letter-spacing: -0.4px;
-  color: white;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: -0.4px;
+    color: white;
 }
 
 h3 {
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 1.4;
-  letter-spacing: -0.4px;
-  color: $g-600;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: -0.4px;
+    color: $g-600;
+}
+
+.careea_title {
+    color: $primary-blue;
+    font-size: 24px;
+}
+
+.careea_date {
+    color: white;
+    font-size: 16px;
+}
+
+.careea_company {
+    color: white;
+    font-size: 18px;
+}
+
+.careea_list {
+    color: $g-300;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.4;
 }
 
 .works_list_title {
-  font-size: 15px;
-  color: $primary-blue !important;
-  font-weight: 700;
+    font-size: 15px;
+    color: $primary-blue !important;
+    font-weight: 700;
 }
 
 .works_list_project {
-  font-size: 18px;
-  color: $g-400;
-  font-weight: 500;
-  line-height: 1.4;
+    font-size: 18px;
+    color: $g-400;
+    font-weight: 500;
+    line-height: 1.4;
 }

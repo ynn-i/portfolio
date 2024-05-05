@@ -1,6 +1,11 @@
-body, a, ul, li, h1, h2, h3, h4, h5, p, a {
+// prettier-ignore
+body, ul, li, h1, h2, h3, h4, p, a {
   list-style: none;
   line-height: 1;
   margin: 0;
   padding: 0;
+}
+
+* {
+    font-family: Pretendard, "Noto Sans KR", sans-serif;
 }
