@@ -3,6 +3,8 @@ header {
     position: fixed;
     background: rgba(23, 28, 34, 0.1);
     backdrop-filter: blur(20px);
+    color: $g-300;
+    font-size: 1.8rem;
 
     ul {
         width: calc(100% - 160px);
@@ -10,8 +12,6 @@ header {
         padding: 32px 0;
         display: flex;
         gap: 52px;
-        color: $g-300;
-        font-size: 18px;
 
         li:hover {
             color: $g-50;
