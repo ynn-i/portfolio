@@ -19,12 +19,56 @@ a {
   font-family: "Pretendard", "Noto Sans KR", sans-serif;
 }
 
+header {
+  width: 100%;
+  position: fixed;
+  background: rgba(23, 28, 34, 0.1);
+  backdrop-filter: blur(20px);
+}
+header ul {
+  width: calc(100% - 160px);
+  margin: 0 auto;
+  padding: 32px 0;
+  display: flex;
+  gap: 52px;
+  color: #a4b5c2;
+  font-size: 18px;
+}
+header ul li:hover {
+  color: #f5f7fa;
+}
+header ul li:first-child {
+  width: 100%;
+}
+@media (max-width: 480px) {
+  header ul {
+    gap: 40px;
+    width: calc(100% - 20px);
+  }
+}
+@media (max-width: 768px) {
+  header ul {
+    gap: 40px;
+    width: calc(100% - 40px);
+  }
+}
+@media (max-width: 1024px) {
+  header ul {
+    width: calc(100% - 60px);
+  }
+}
+@media (max-width: 1200px) {
+  header ul {
+    width: calc(100% - 120px);
+  }
+}
+
 body {
   background-color: #0b1923;
 }
 
 .contents {
-  margin: 10.417vw;
+  padding: 10.417vw;
   display: flex;
   flex-direction: column;
   gap: 10.417vw;

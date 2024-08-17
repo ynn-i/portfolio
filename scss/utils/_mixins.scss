@@ -1,0 +1,25 @@
+$breakpoint-mobile: 480px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;
+$breakpoint-large-desktop: 1200px;
+
+// 믹스인 정의
+@mixin respond-to($device) {
+    @if $device == mobile {
+        @media (max-width: $breakpoint-mobile) {
+            @content;
+        }
+    } @else if $device == tablet {
+        @media (max-width: $breakpoint-tablet) {
+            @content;
+        }
+    } @else if $device == desktop {
+        @media (max-width: $breakpoint-desktop) {
+            @content;
+        }
+    } @else if $device == large-desktop {
+        @media (max-width: $breakpoint-large-desktop) {
+            @content;
+        }
+    }
+}
