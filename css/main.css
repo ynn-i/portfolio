@@ -10,9 +10,12 @@ header {
 header ul {
   width: calc(100% - 160px);
   margin: 0 auto;
-  padding: 32px 0;
+  padding: 20px 0;
   display: flex;
-  gap: 52px;
+  gap: 40px;
+}
+header ul li {
+  padding: 12px;
 }
 header ul li:hover {
   color: #f5f7fa;
