@@ -1,10 +1,11 @@
 header {
     width: 100%;
     position: fixed;
-    background: rgba(23, 28, 34, 0.1);
-    backdrop-filter: blur(20px);
+    background: rgba($black, 0.8);
+    backdrop-filter: blur(30px);
     color: $g-300;
     font-size: 1.8rem;
+    z-index: 10;
 
     ul {
         width: calc(100% - 160px);
@@ -14,7 +15,7 @@ header {
         gap: 40px;
 
         li {
-            padding: 12px;
+            padding: 4px;
         }
 
         li:hover {
