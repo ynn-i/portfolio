@@ -81,10 +81,12 @@ body {
 }
 
 .top {
+  padding-bottom: 120px;
   display: flex;
   flex-direction: column;
+  justify-content: end;
   gap: 48px;
-  padding: 600px 0 120px 0;
+  height: 100vh;
   box-sizing: border-box;
 }
 
@@ -159,14 +161,14 @@ body {
   display: flex;
   gap: 40px;
 }
-.profile-right-info .profile_info_careea {
+.profile-right-info .profile-info-con {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 16px;
 }
 
-.careea {
+.info-con {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -204,6 +206,31 @@ body {
   line-height: 1.5;
 }
 
+.skill-list-con {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.skill-icons-con {
+  display: flex;
+  gap: 16px;
+}
+.skill-icons-con p {
+  width: 100%;
+  color: white;
+  font-size: 16px;
+}
+.skill-icons-con .skill-icons {
+  display: flex;
+  justify-content: end;
+  gap: 16px;
+}
+.skill-icons-con .skill-icons img {
+  width: 72px;
+  height: 72px;
+}
+
 .project {
   width: 100%;
   display: flex;
@@ -238,7 +265,7 @@ body {
   object-fit: contain;
 }
 
-.careea_title {
+.title {
   color: #41bbff;
   font-size: 24px;
 }

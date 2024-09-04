@@ -26,10 +26,12 @@ body {
 
 // top
 .top {
+    padding-bottom: 120px;
     display: flex;
     flex-direction: column;
+    justify-content: end;
     gap: 48px;
-    padding: 600px 0 120px 0;
+    height: 100vh;
     box-sizing: border-box;
 }
 
@@ -108,7 +110,7 @@ body {
     display: flex;
     gap: 40px;
 
-    .profile_info_careea {
+    .profile-info-con {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -116,7 +118,7 @@ body {
     }
 }
 
-.careea {
+.info-con {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -154,6 +156,31 @@ body {
     .careea_list {
         font-size: 16px;
         line-height: 1.5;
+    }
+}
+.skill-list-con {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.skill-icons-con {
+    display: flex;
+    gap: 16px;
+
+    p {
+        width: 100%;
+        color: white;
+        font-size: 16px;
+    }
+    .skill-icons {
+        display: flex;
+        justify-content: end;
+        gap: 16px;
+
+        img {
+            width: 72px;
+            height: 72px;
+        }
     }
 }
 
@@ -194,7 +221,7 @@ body {
 }
 
 // typogryphy
-.careea_title {
+.title {
     color: $primary-blue;
     font-size: 24px;
 }
