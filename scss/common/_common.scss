@@ -11,16 +11,16 @@ body {
     gap: 40px;
 
     @include respond-to(mobile) {
-        width: calc(100% - 20px);
+        max-width: calc(100% - 20px);
     }
     @include respond-to(tablet) {
-        width: calc(100% - 40px);
+        max-width: calc(100% - 40px);
     }
     @include respond-to(desktop) {
-        width: calc(100% - 60px);
+        max-width: calc(100% - 60px);
     }
     @include respond-to(large-desktop) {
-        width: calc(100% - 120px);
+        max-width: calc(100% - 120px);
     }
 }
 
@@ -72,12 +72,13 @@ body {
 // profile
 .profile {
     width: 100%;
+    padding-top: 120px;
     display: flex;
-    gap: 40px;
+    gap: 60px;
 }
 
 .profile-img {
-    width: 21.875vw;
+    width: 25vw;
 }
 
 .profile-right {
@@ -108,7 +109,7 @@ body {
 }
 .profile-right-info {
     display: flex;
-    gap: 40px;
+    gap: 60px;
 
     .profile-info-con {
         display: flex;
@@ -136,6 +137,7 @@ body {
     }
 }
 .careea_contents {
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -186,6 +188,7 @@ body {
 
 // works
 .project {
+    padding-top: 120px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -207,7 +210,7 @@ body {
     width: 240px;
     min-width: 160px;
     position: sticky;
-    top: 60px;
+    top: 100px;
 
     :hover {
         color: white;
