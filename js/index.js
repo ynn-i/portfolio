@@ -12,3 +12,25 @@ dropdownButton.addEventListener('click', function () {
         }
     });
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    const worksList = document.querySelector('.works_list');
+    const headerOffset = 80;
+    const observer = new IntersectionObserver(
+        (entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    worksList.classList.remove('sticky-active');
+                } else {
+                    worksList.classList.add('sticky-active');
+                }
+            });
+        },
+        {
+            root: null,
+            rootMargin: `-${headerOffset}px 0px 0px 0px`,
+            threshold: 0,
+        }
+    );
+    observer.observe(worksList);
+});
