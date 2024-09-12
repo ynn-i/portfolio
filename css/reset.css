@@ -1,6 +1,7 @@
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
+    word-break: keep-all;
 }
 
 body,

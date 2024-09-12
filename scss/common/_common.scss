@@ -26,6 +26,7 @@ body {
 
 // top
 .top {
+    max-width: 100%;
     padding-bottom: 120px;
     display: flex;
     flex-direction: column;
@@ -45,14 +46,12 @@ body {
         width: 320px;
     }
     @include respond-to(desktop) {
-        width: 320px;
-    }
-    @include respond-to(large-desktop) {
         width: 420px;
     }
 }
 
 .top-text {
+    width: 100%;
     padding-top: 48px;
     display: flex;
     flex-direction: column;
@@ -80,6 +79,23 @@ body {
         top: 0;
         left: 0;
     }
+
+    @include respond-to(mobile) {
+        h2 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+    @include respond-to(tablet) {
+        h2 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 20px;
+        }
+    }
 }
 
 // profile
@@ -88,10 +104,19 @@ body {
     padding-top: 120px;
     display: flex;
     gap: 60px;
+
+    @include respond-to(mobile) {
+        flex-direction: column;
+        gap: 24px;
+    }
 }
 
 .profile-img {
     width: 25vw;
+
+    @include respond-to(mobile) {
+        width: 100%;
+    }
 }
 
 .profile-right {
@@ -119,7 +144,25 @@ body {
             color: $g-300;
         }
     }
+
+    @include respond-to(mobile) {
+        h1 {
+            font-size: 32px;
+        }
+        h3 {
+            font-size: 20px;
+        }
+    }
+    @include respond-to(tablet) {
+        h1 {
+            font-size: 32px;
+        }
+        h3 {
+            font-size: 20px;
+        }
+    }
 }
+
 .profile-right-info {
     display: flex;
     gap: 60px;
@@ -129,6 +172,13 @@ body {
         flex-direction: column;
         align-items: flex-start;
         gap: 16px;
+    }
+
+    @include respond-to(mobile) {
+        flex-direction: column;
+    }
+    @include respond-to(tablet) {
+        flex-direction: column;
     }
 }
 
