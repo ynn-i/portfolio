@@ -1,7 +1,7 @@
 header {
     width: 100%;
     position: fixed;
-    background: rgba($black, 0.8);
+    background: $black;
     backdrop-filter: blur(30px);
     color: $g-300;
     font-size: 1.8rem;
@@ -29,13 +29,13 @@ header {
 
     @include respond-to(mobile) {
         ul {
-            gap: 40px;
+            gap: 24px;
             width: calc(100% - 20px);
         }
     }
     @include respond-to(tablet) {
         ul {
-            gap: 40px;
+            gap: 32px;
             width: calc(100% - 40px);
         }
     }
